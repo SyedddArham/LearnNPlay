@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/pop_up_menu_background"
+    android:layout_marginStart="210dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/menu_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Parent Portal"
+        android:textColor="#196781"
+        android:textSize="16sp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/menu_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Change Password"
+        android:textColor="#196781"
+        android:textSize="16sp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/menu_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Sign Out"
+        android:textColor="#196781"
+        android:textSize="16sp"
+        android:clickable="true" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630649506088",
+    "project_id": "learn-n-play-ef2c4",
+    "storage_bucket": "learn-n-play-ef2c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630649506088:android:baf8f3ccfab19ff002a81d",
+        "android_client_info": {
+          "package_name": "com.madassignment.learnnplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBingTd1lg9H7oQUtu_UAu6RpufsBCOZJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

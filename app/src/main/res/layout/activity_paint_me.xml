@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paint.PaintMe">
+
+    <!-- Add the color bar at the top -->
+    <LinearLayout
+        android:id="@+id/color_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="8dp">
+
+        <!-- Button for Red color -->
+        <Button
+            android:id="@+id/color_red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Red"/>
+
+        <!-- Button for Blue color -->
+        <Button
+            android:id="@+id/color_blue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blue"/>
+
+        <!-- Button for Green color -->
+        <Button
+            android:id="@+id/color_green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Green"/>
+
+        <!-- Button for Yellow color -->
+        <Button
+            android:id="@+id/color_yellow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yellow"/>
+
+        <!-- Button for Orange color -->
+        <Button
+            android:id="@+id/color_orange"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Orange"/>
+    </LinearLayout>
+
+    <!-- View for drawing -->
+    <View
+        android:id="@+id/drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/color_bar"/>
+</RelativeLayout>

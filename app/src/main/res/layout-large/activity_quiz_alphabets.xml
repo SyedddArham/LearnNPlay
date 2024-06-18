@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".quiz.Quiz_alphabets" >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/previous" />
+    <ImageButton
+        android:id="@+id/option4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/option2"
+        android:layout_alignTop="@+id/option3"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/option2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/option1"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@+id/resume"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/option3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/option1"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/resume"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/option1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/option3"
+        android:layout_below="@+id/resume"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/resume"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="24sp"
+        android:layout_below="@id/option4"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:layout_below="@id/option4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#0c64e8"
+        android:textSize="35sp" />
+</RelativeLayout>

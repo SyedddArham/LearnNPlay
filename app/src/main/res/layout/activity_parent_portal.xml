@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg2" >
+
+    <!-- User Profile Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="@drawable/rounded_box2"/>
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User email"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_box2"/>
+        <TextView
+            android:id="@+id/user_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User age"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_box2"/>
+        <TextView
+            android:id="@+id/user_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User gender"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_box2"/>
+    </LinearLayout>
+
+    <!-- Add some space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <!-- Scores Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Scores"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/rounded_box" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/alphabet_game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alphabet Quiz: 0"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_box2"/>
+
+    <TextView
+        android:id="@+id/shape_game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shape Quiz: 0"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_box2"/>
+    <TextView
+        android:id="@+id/num_game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Quiz: 0"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_box2"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="65dp" />
+    <!-- Feedback Comment Box -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/rounded_box" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+    <EditText android:id="@+id/feedback_comment_box"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="top"
+    android:hint="Enter your feedback here"
+    android:inputType="textMultiLine"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_feedback_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:padding="12dp"
+
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/green"/>
+</LinearLayout>

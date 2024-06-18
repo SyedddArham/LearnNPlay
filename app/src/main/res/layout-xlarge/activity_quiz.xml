@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz.Quiz_Levels"
+    android:background="@drawable/bg2" >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/previous" />
+    <ImageButton
+        android:id="@+id/Learn_Shapes"
+        android:layout_width="340dp"
+        android:layout_height="270dp"
+        android:layout_below="@+id/Quiz_num"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/shapequiz" />
+    <ImageButton
+        android:id="@+id/Quiz_num"
+        android:layout_width="340dp"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/Learn_Shapes"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/numquiz" />
+
+    <ImageButton
+        android:id="@+id/Quiz_alphabets"
+        android:layout_width="340dp"
+        android:layout_height="270dp"
+        android:layout_toRightOf="@+id/Learn_Shapes"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/abcquiz" />
+
+
+</RelativeLayout>
